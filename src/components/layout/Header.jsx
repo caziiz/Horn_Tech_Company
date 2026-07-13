@@ -20,7 +20,6 @@ export default function Header() {
       <Container>
         <div className="flex h-16 items-center justify-between md:h-20">
           <Link to="/" className="flex items-center gap-3" aria-label={`${company.name} home`}>
-            <img src={logo} alt={company.name} className="h-10 w-auto md:h-12" />
             <span className="hidden text-lg font-bold text-slate-900 sm:block">{company.name}</span>
           </Link>
 
