@@ -2,6 +2,8 @@ import { Award } from 'lucide-react'
 import Container from '../common/Container'
 import SectionHeading from '../common/SectionHeading'
 
+// Greating function 
+
 export default function Certifications({ certifications }) {
   return (
     <section aria-labelledby="certifications-heading" className="py-16 md:py-24">
