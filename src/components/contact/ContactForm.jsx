@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Send } from 'lucide-react'
 import Card from '../common/Card'
 import Button from '../common/Button'
+// Contact form 
 
 const initialForm = {
   name: '',
