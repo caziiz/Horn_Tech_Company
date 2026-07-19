@@ -1,5 +1,6 @@
 import Card from '../common/Card'
 
+//  map imppeded 
 export default function MapEmbed({ map, companyName }) {
   if (!map?.embedUrl) return null
 
